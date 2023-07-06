@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Bryan Huillca Mozo</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/BHM/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                           
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/bryan-huillca-mozo-b32411223/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/BryanHuillcaMozo"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=51937190744"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/BR7AN/"><i class="fa-brands fa-facebook"></i></a>  
+                        <a href="https://www.instagram.com/br7anhmozo/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCEiU6NvRIuRly8mgiY-rnOQ"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                
+                <h2> Bryan Huillca Mozo</h2>
+                <h2> <span>Front - end Developer</span></h2>
+                
+                <p class="bienvenida">Bienvenidos</p>
+                <p class="descripcion">Bachiller de la carrera profesional de Ingeniería Informática y de Sistemas. Valores basados en el compromiso, responsabilidad, orden y eficiencia. Tengo gran motivación para seguir perfeccionando habilidades y crecer profesionalmente. </p>
+
+                <a href="https://drive.google.com/drive/u/0/folders/1M4VCJNl5fXzJxAqK8LxYteVG9bfVuD0q">DESCARGAR CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/BryanH.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Bryan Huillca</span> </h2>
+            <h3>Front - end Developer</h3>
+            <p>Especialista en Informatica, con mas de 3 años de experiencia en el campo del desarrollo web y Soporte Tecnico. Busco brindar
+                la misma calidad de servicio y optimizar el rendimiento de los Sistemas Informaticos.
+            </p>
+            <p>Tengo gran motivación para seguir perfeccionando mis habilidades y conocimientos para poder seguir creciendo profesionalmente.</p>
+            <p> <strong>Contacto:</strong> 160329@unsaac.edu.pe</p>
+            <p><STRong>WhatsApp:</STRong> +51 937 190 744</p>
+
+            <a href="https://api.whatsapp.com/send?phone=51937190744">CONTACTAR</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sistemas Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Html 5</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>REACT</li>
+                </ul>
+                <p>Desarrollo front - end con tecnologias de estructuracion (Html 5) y diseño (CSS), ademas de frameworks (React,Vue).</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>DBA</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>SQL</li>
+                    <li>MySQL</li>
+                    <li>MONGODB</li>
+                </ul>
+                <p>Administrador de base de datos en el area de TI. Manejo de  gestores de base de datos como SQL server, MySQL y MONGODB.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Posicionamiento Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Google Search</li>
+                    <li>Google Analitycs</li>
+                    <li>Google Trends</li>
+                </ul>
+                <p>SEO utilizando tecnicas y estrategias de optimizacion para mejorar la posicion de una pagina web en la parte organica de los resultados de busqueda.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Desarrollo - Paginas Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>WordPress</li>
+                    <li>Joomla</li>
+                    <li>Drupal</li>
+                </ul>
+                <p>Desarrollo de paginas web con sistemas de gestion de contenido (cms) tales como Wordpress(Elementor, Oxygen),  Joomla  y Drupal. </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Programador</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>C++</li>
+
+                </ul>
+                <p>Elaboracion y Optimizacion de Software Informatico, desarrollando codigo Optimo y Limpio, manteniendo versiones de los componentes y dar soporte al mismo.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Soporte Tecnico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Drivers</li>
+                    <li>S.O</li>
+                    <li>Software</li>
+                </ul>
+                <p> instalacion de Sistemas Operativos (Windows, Linux, macOS), activacion e instalacion de softwares Corporativos, Solucion a problemas de conexion a internet.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html, Css & WordPress</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Python, Java, Javascript & c#</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos: SQL server & MySQL</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Soporte Tecnico</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Certificados - ESTUDIOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/certificado1.png" alt="">
+                <div class="info">
+                    <h4>Practicas Pre Profesionales</h4>
+                    <p>GEREDU</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/certificado2.png" alt="">
+                <div class="info">
+                    <h4>Operador de Computadoras</h4>
+                    <p>CCI- UNSAAC</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/certificado3.png" alt="">
+                <div class="info">
+                    <h4>Diseño Profesional Web</h4>
+                    <p>MINPE</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/certificado4.png" alt="">
+                <div class="info">
+                    <h4>Curso de Html</h4>
+                    <p>EDTEAM</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/certificado5.png" alt="">
+                <div class="info">
+                    <h4>Curso de CSS</h4>
+                    <p>EDTEAM</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/certificado6.png" alt="">
+                <div class="info">
+                    <h4>Curso de JavaScript intensivo</h4>
+                    <p>EDTEAM</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/certificado7.png" alt="">
+                <div class="info">
+                    <h4>Web Development Fundamentals</h4>
+                    <p>SOLOLEARN</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/certificado8.png" alt="">
+                <div class="info">
+                    <h4>Responsive Web Design</h4>
+                    <p>SOLOLEARN</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/certificado9.png" alt="">
+                <div class="info">
+                    <h4>Coding for Maketers</h4>
+                    <p>SOLOLEARN</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio1">
+        <h3 class="titulo-seccion">MIS CONSTANCIAS DE TRABAJO - PARTICIPACION</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Constancia1.PNG" alt="">
+                <div class="info">
+                    <h4>Especialista en Informatica</h4>
+                    <p>MUNICIPALIDAD DISTRITAL DE CHINCHAYPUJIO - 2023</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Constancia2.PNG" alt="">
+                <div class="info">
+                    <h4>Tecnico en Informatica</h4>
+                    <p>MUNICIPALIDAD DISTRITAL DE CHINCHAYPUJIO - 2023</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/constancia3.png" alt="">
+                <div class="info">
+                    <h4>Desarrollador Web</h4>
+                    <p>ITS PERU</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Constancia4.png" alt="">
+                <div class="info">
+                    <h4>Operador Informatico</h4>
+                    <p>INEI</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/constancia5.PNG" alt="">
+                <div class="info">
+                    <h4>Aplicador Primaria</h4>
+                    <p>INEI</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/constancia6.PNG" alt="">
+                <div class="info">
+                    <h4>Operador Informatico</h4>
+                    <p>INEI</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/constancia7.PNG" alt="">
+                <div class="info">
+                    <h4>Operador Informatico</h4>
+                    <p>INEI</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/constancia8.PNG" alt="">
+                <div class="info">
+                    <h4>Coordinador de Mesa</h4>
+                    <p>ONPE</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/constancia9.PNG" alt="">
+                <div class="info">
+                    <h4>Robotica Topologica</h4>
+                    <p>UNSAAC</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/bryan-huillca-mozo-b32411223/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/BryanHuillcaMozo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=51937190744"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/BR7AN/"><i class="fa-brands fa-facebook"></i></a>  
+            <a href="https://www.instagram.com/br7anhmozo/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCEiU6NvRIuRly8mgiY-rnOQ"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
